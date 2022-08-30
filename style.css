@@ -1,0 +1,90 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-image: url(floresta.png);
+}
+
+.cabecalho-principal{
+    display: flex;
+    align-items: baseline;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #F2F2F2,#d9d7d7cb);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    background-image: linear-gradient(to top, #F2F2F2, #f2f2f256);
+    padding: 0;
+}
+
+
+.link-cabecalho-principal{
+    margin: auto;
+    padding: 3em;
+    text-decoration: none;
+}
+
+.cabecalo-principal-pesquisar{
+    margin: auto;
+    padding-right: 5em;
+    border-radius: 1em;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    padding-top: 0.5em;
+}
+
+.conteudo-main{
+    display: flex;
+    align-items: center;
+    background-color: #d9d7d7cb;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.paragrafo-secao1-conteudo-main{
+    padding: 1em;
+}
+
+.paragrafo-secao2-conteudo-main{
+    padding: 1;
+}
+
+.rodape{
+    padding: 2em;
+    background-image: linear-gradient(to bottom, #d9d7d7cb, #F2F2F2);
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 0.8em;
+}
+
+.titulo-rodape{
+    font-weight: bolder;
+}
+
+.link-rodape{
+    font-weight: bold;
+
+}
+
+.infos-rodape{
+    font-family: 'Courier New', Courier, monospace;
+    bottom: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+.link-rodape:hover{
+    background: #F2F2F2;
+}
+
